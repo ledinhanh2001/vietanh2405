@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Poppins",Helvetica,sans-serif;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.75;
+
+}
+body {
+    /* background-color: #007ced;
+     background-image: linear-gradient(#007ced, #0084FF);*/
+    /*min-height: 1920px;*/
+    /*
+    background: url('../img/Background/cover.jpg') top center / cover no-repeat;
+    */
+    display: flex;
+    padding: 40px 70px;
+    margin: 36px auto 0 auto;
+    background-image: linear-gradient(10deg, lightblue 50%, transparent 50%), linear-gradient(-60deg, white 35%, transparent 30%) ;
+    background-color: blue;
+
+}
+
+.zoom {
+
+    background-color: DodgerBlue;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+/*Hiệu ứng zoom*/
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+/*Start Navigation*/
+.nav {
+    display: flex;
+    background-color: rgba(0,0,0,0);
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+
+}
+
+.main-nav {
+
+}
+
+.logo-symbol,
+.nav-items {
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
+
+.logo-symbol:hover,
+.nav-items:hover {
+    opacity: 0.3;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo-symbol {
+    float: left;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    background-color: #007ced;
+    border-radius: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 900;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.logo-main {
+    margin-left: 30px ;
+    margin-right: 100px;
+}
+
+.nav-items {
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 30px;
+}
+
+.view-all {
+    border: 1px solid #007ced;
+    border-radius: 50px;
+    -moz-box-shadow: 3px 3px 5px 0px #666;
+    -webkit-box-shadow: 3px 3px 5px 0px #666;
+    box-shadow: 3px 3px 5px 0px #666;
+    background: white;
+    margin: auto;
+    display: flex;
+
+
+}
+
+.view {
+    width: 1320px;
+    margin: auto;
+    padding: 50px 50px;
+
+}
+
+/*Start blogs*/
+.title-name {
+    border-bottom: #007ced solid 3px;
+    border-top: #007ced solid 3px;
+
+}
+
+.title-big-name {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.title-big-name > h1 {
+    font-size: 50px;
+    padding: 40px 20px;
+}
+
+.title-big-name > p {
+    opacity: 0.7;
+    padding: 20px 20px;
+}
+
+/*Begin blogs*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.blogs {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs-img  img {
+    max-width: 570px;
+    height: auto;
+    display: flex;
+    border-radius: 16px;
+    -moz-box-shadow: 3px 3px 5px 0px #666;
+    -webkit-box-shadow: 3px 3px 5px 0px #666;
+    box-shadow: 3px 3px 5px 0px #666;
+    margin-bottom: 10px;
+}
+
+.blogs-title {
+    margin-left: 15px;
+}
+
+.blogs-title > p {
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.blogs-title > h1 {
+    font-size: 18px;
+    border-bottom: #007ced solid 3px;
+    max-width: 420px;
+}
+.blogs-title > h1:hover {
+    color: #007ced;
+    cursor: pointer;
+}
+/*end*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0px 40px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ico {
+    font-size: 25px;
+    padding: 0 10px;
+    color: #007ced;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.footer-ico:hover {
+    opacity: 0.4;
+}
+/*end*/

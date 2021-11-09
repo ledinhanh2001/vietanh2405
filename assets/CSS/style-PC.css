@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Poppins",Helvetica,sans-serif;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.6;
+
+}
+body {
+   /* background-color: #007ced;
+    background-image: linear-gradient(#007ced, #0084FF);*/
+    padding: 40px 70px ;
+    /*min-height: 1920px;*/
+    /*
+    background: url('../img/Background/cover.jpg') top center / cover no-repeat;
+    */
+    display: flex;
+    margin: 36px auto 0 auto;
+    background-image: linear-gradient(10deg, lightblue 50%, transparent 50%), linear-gradient(-60deg, white 35%, transparent 30%) ;
+    background-color: blue;
+
+}
+
+.view-all {
+    border: 1px solid #007ced;
+    border-radius: 50px;
+    -moz-box-shadow: 3px 3px 5px 0px #666;
+    -webkit-box-shadow: 3px 3px 5px 0px #666;
+    box-shadow: 3px 3px 5px 0px #666;
+    background: white;
+    margin: auto;
+    display: flex;
+
+}
+
+.view {
+    max-width: 1320px;
+    margin: auto;
+    padding: 50px 50px;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start Navigation*/
+.nav {
+    display: flex;
+    background-color: rgba(0,0,0,0);
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.main-nav {
+    
+}
+
+.logo-symbol,
+.nav-items {
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
+
+.logo-symbol:hover,
+.nav-items:hover {
+    opacity: 0.3;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo-symbol {
+    float: left;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    background-color: #007ced;
+    border-radius: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 900;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.logo-main {
+    margin-left: 30px ;
+}
+
+.nav-items {
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 30px;
+}
+
+/*End Navigation*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start Review My Sefl*/
+#slider {
+
+}
+
+.content {
+    display: flex;
+    padding: 15px 0;
+    margin: auto;
+
+}
+
+
+.img-avt {
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    border: 16px solid #007ced;
+
+}
+
+.profile-avt__mysefl {
+    padding: 0 15px;
+}
+
+.content-mysefl {
+    padding: 0 25px;
+    margin: auto;
+}
+
+.text__mysefl > h2 {
+    font-size: 48px;
+    line-height: 56px ;
+    margin-top: 0;
+    margin-bottom: 20px;
+    max-width: 560px;
+
+}
+
+.text__mysefl > p {
+    margin-bottom: 10px;
+    max-width: 520px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.btn__mysefl {
+    margin-top: 27px;
+    text-decoration: none;
+}
+
+.downCV-btn,
+.aboutme-btn {
+    padding: 12px 30px ;
+    border: #007ced 3px solid;
+    border-radius: 100px;
+    background-color: white;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px #aaaa;
+}
+
+.downCV-btn:hover,
+.aboutme-btn:hover {
+    background-color: #007ced;
+    color: white;
+}
+
+.aboutme-btn {
+    margin-left: 10px;
+}
+
+/*Begin Review My Sefl*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start what i do*/
+.What-I-Do > h1 {
+    margin-top: 50px;
+    font-size: 20px;
+    border-bottom: #007ced solid 3px;
+    max-width: 100px;
+}
+
+.content-w-s > h2 {
+
+    text-decoration: underline 2px solid #007ced;
+}
+
+.content-w {
+    margin-top: 50px;
+    display: flex;
+    max-width: 576px;
+    min-height: auto;
+    flex-direction: row;
+}
+
+.content-w-s > h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ico-w {
+    font-size: 33px;
+
+    margin-bottom: 5px;
+    margin-top: 7px;
+    color: #007ced;
+}
+
+.fa-volume-down {
+    font-size: 54px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    color: #007ced;
+}
+
+.content-w-s{
+    margin-left: 15px;
+}
+
+.layout1-w {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout-items-w {
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+/*Begin what i do*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Start Fun Facts*/
+.facts-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+.funfacts > h1 {
+    max-width: 100px;
+    font-size: 20px;
+    border-bottom: #007ced solid 3px;
+}
+
+.facts-items {
+    min-width: 200px;
+    height: 200px;
+    border: #007ced 3px solid;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.facts-icos {
+    font-size: 60px;
+    padding-top: 20px;
+    color: #007ced;
+}
+
+.facts-items h1 {
+    font-size: 44px;
+}
+
+.facts-items p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*Begin Fun Facts*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Start footer*/
+#footer {
+    display: inline;
+}
+
+.footer-socicals {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.footer-ico {
+    font-size: 50px;
+    padding: 0 20px;
+    color: #007ced;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+.footer-ico:hover {
+    opacity: 0.4;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.text-footer > p {
+    margin-top: 50px;
+    bottom: 0;
+}
+/*Begin footer*/
+
